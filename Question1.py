@@ -12,4 +12,4 @@
 for n in range(99,0,-1):
     nold = n
     nnew = nold - 1
-    print (nold, "bottles of beer on the wall,... ", nnew, "bottles of beer on the wall")
+    print (nold, "bottles of beer on the wall, ", nold, "bottles of beer. Take one down, pass it around, ", nnew, "bottles of beer on the wall.")
