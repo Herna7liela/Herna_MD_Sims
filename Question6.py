@@ -1,0 +1,1 @@
+# Write a program that takes a DNA sequence and returns the number of non-nucleotide bases.
