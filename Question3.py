@@ -3,11 +3,12 @@
 
 
 word = input("Enter a word to test for palindrome: ")
-word1 = word.lower()
+
 while word != "":
-    if str(word1) == str(word1[::-1]):
+    word1 = word.lower()
+    if word1 == word1[::-1]:
         print ("True")
-    elif str(word1) != str(word1[::-1]):
+    elif word1 != word1[::-1]:
         print ("False")
     
     word = input("Enter a word to test for palindrome: ")
